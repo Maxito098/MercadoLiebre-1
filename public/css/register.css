@@ -1,0 +1,300 @@
+body{
+    margin: 0%;
+}
+.banner{
+    display: none;
+}
+header{
+    background-color: #EAC926;
+    
+    }
+    
+    header .compra{
+        text-align: center;
+        margin: 7%;
+    }
+    
+    body{
+        font-family: 'Roboto';
+        
+    }
+    .compra_2{
+        display: none;
+    }
+
+    header .img__busqueda{
+        display: flex;
+        justify-content: space-between;
+    } 
+    header .logo{
+        width: 50%;
+        
+    }
+    
+    header .nav__ul__1{
+        text-decoration: none;
+        color: black;
+        padding: 0%;
+    }
+    header .nav__ul__2{
+        text-decoration: none;
+        color: black;
+        padding: 0%;
+    }
+    header .nav__ul li a{
+        color: black;
+        padding: 0%;
+        text-decoration: none;
+    }
+    header .nav__ul__1 li a{
+        color: black;
+        padding: 0%;
+        text-decoration: none;
+    }
+    header .nav__ul__2 li a{
+        color: black;
+        padding: 0%;
+        text-decoration: none;
+    }
+    
+    
+    
+    header .nav__burger-menu{
+        color: white;
+        background-color: #1259c3;
+        border-radius: 5px;
+        text-align: center;
+        width: 35px;
+        height: 35px;
+        margin-left: 44%;
+        margin-bottom: 5%;
+        font-size: 25px;
+    
+    }
+    
+    
+    main{
+        width: 100%;
+        background-color: #ebebeb;
+        justify-content: center;
+        
+    }
+
+main .formulario__contraseña{
+    margin-top: 1%;
+    
+    
+}
+main input{
+    margin: 2%;
+    border-radius: 5%;
+    border: solid 1px white;
+}
+main #Nombre{
+    padding: 2%;
+}
+main h2{margin-top: 0%;
+
+    text-align: center;
+}
+main .boton input{
+    background-color: #1259c3;
+    color: white;
+    padding: 3%;
+    border-radius: 5%;
+    
+}
+.Borrar{
+    margin-left: 24px;
+}
+.enviar{
+    margin-left: 24px;
+}
+
+
+footer{
+    margin: 10px;
+}
+
+footer i{
+    color: #1259c3;
+    text-align: center;
+    margin-left: 43%;
+    font-size: 2em;
+    margin-top: 2em;
+    
+
+
+}
+footer i:hover{
+    color: #39b54a;
+}
+footer .titulo2{
+    text-align: center;
+    margin: 0 auto;
+}
+footer .descripcion{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+}
+footer .copy{
+    padding: 0%;
+    font-size: 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 424px) {
+	.header__navegador{
+        display: none;
+    }main .formulario__contraseña{
+        display: flex; 
+          
+    }
+    .primero{
+        text-align: center;
+    }
+    .formulario__contraseña{
+        text-align: center;
+    }
+   .segundo{
+    margin-left: 23%;
+   }
+   
+}
+
+
+    
+@media only screen and (min-width: 425px) and (max-width: 785px) {
+    main .formulario{
+        margin-left: 33%;
+        margin-right: 30%;
+        
+    }main .formulario{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+}
+
+    
+    
+
+
+
+    @media (min-width: 768px){
+        .nav__ul__1{
+            display: flex;
+            justify-content: space-between;
+            width: 35%;
+            margin: 15px;
+            
+        }
+       
+        .nav__ul__2{
+            display: flex;
+            justify-content: space-between;
+            width: 40%;
+            margin: 15px;
+            
+        }
+        
+        .header__navegador{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        header .nav__burger-menu{
+            display: none;
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+        .img__busqueda{
+            display: flex;
+            justify-content: space-around;
+            padding: 5%;
+            
+        }
+        .logo{
+            margin-right: 3%;
+        }
+        .buscador{
+            margin-right: 3%;
+        }
+    
+        .compra_2{
+            display: block;
+            margin-right: 1%;
+        }
+        .compra{
+            display: none;
+            
+        }
+        footer .footer__flex{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8%;
+            }   
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+        } 
+        .primero{
+            text-align: center;
+        }
+        .segundo{
+            display: flex;
+            justify-content: space-around;
+            
+        }   
+        .intereses{
+            width: 25%;
+        }
+        .perfil{
+            width: 25%;
+        }
+        .formulario__contraseña{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            
+        }
+        .contraseña{
+            width: 25%;
+            margin-bottom: 10px;
+        }
+        .boton{
+            width: 35%;
+            
+        }
+       
+        
+               
+    }
+    @media  (min-width: 1024px){
+        main .formulario{
+            margin-left: 41%;
+            margin-right: 38%;
+            
+        }
+        .segundo{
+            margin-left: 10%;
+            
+        }   
+    }
+    @media   (min-width: 1340px){
+        main .formulario{
+            margin-left: 44%;
+            margin-right: 41%;
+            
+        }
+        main h2{
+            display: none;
+    }
+    .contraseña{
+        margin-left: 70px;
+    }
+
+    }
